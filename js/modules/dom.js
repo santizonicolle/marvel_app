@@ -3,7 +3,7 @@ const DOM = {
   find: (query, from = document) => {
     return from.querySelector(query);
   },
-  // crea un elemento HTML
+  // crea un elemento
   create: (tag) => {
     return document.createElement(tag);
   },
