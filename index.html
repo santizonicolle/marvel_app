@@ -18,9 +18,7 @@
   </head>
   <body>
     <!--NAVBAR-->
-    <nav
-      class="navbar navbar-expand-md navbar-light bg-light"
-    >
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
       <div class="container px-4">
         <!--LOGO-->
         <a href="#" class="navbar-brand">
@@ -38,10 +36,7 @@
           <span class="navbar-toggler-icon"> </span>
         </button>
         <!--MENÚ DE NAVEGACIÓN-->
-        <div
-          id="navbar_menu"
-          class="navbar-collapse collapse"
-        >
+        <div id="navbar_menu" class="navbar-collapse collapse">
           <!--Lista de Items-->
           <ul class="navbar-nav me-auto">
             <li class="nav-item">
@@ -65,37 +60,31 @@
                 aria-labelledby="drop_products"
               >
                 <li>
-                  <a class="dropdown-item" href="#">
-                    All Products
-                  </a>
+                  <a class="dropdown-item" href="#"> All Products </a>
                 </li>
                 <li>
                   <hr class="dropdown-divider" />
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
-                    Comics
-                  </a>
+                  <a class="dropdown-item" href="#"> Comics </a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
-                    Series
-                  </a>
+                  <a class="dropdown-item" href="#"> Series </a>
                 </li>
               </ul>
             </li>
           </ul>
           <div class="d-flex">
-            <button
-              id="btn_cart"
-              class="btn btn-outline-dark"
-            >
+            <a href="cart.html" class="btn btn-outline-dark">
               <i class="bi bi-cart-fill"></i>
               Cart
-              <span class="badge rounded-pill bg-dark ms-1">
+              <span
+                id="cart_items"
+                class="badge rounded-pill bg-dark ms-1"
+              >
                 0</span
               >
-            </button>
+            </a>
           </div>
         </div>
       </div>
@@ -103,12 +92,7 @@
     <!--HEADER-->
     <header>
       <div class="overlay"></div>
-      <video
-        src="assets/video.mp4"
-        autoplay
-        muted
-        loop
-      ></video>
+      <video src="assets/video.mp4" autoplay muted loop></video>
       <div class="container h-100">
         <div
           class="d-flex h-100 flex-column align-items-center justify-content-center text-white"
@@ -134,15 +118,9 @@
             style="display: none"
           >
             <div class="card">
-              <img
-                class="card-img-top comic_img"
-                src="#"
-                alt="..."
-              />
+              <img class="card-img-top comic_img" src="#" alt="..." />
               <div class="card-body text-center">
-                <h5 class="fw-bolder comic_name">
-                  {COMIC NAME}
-                </h5>
+                <h5 class="fw-bolder comic_name">{COMIC NAME}</h5>
                 <div
                   class="d-flex justify-content-center text-warning small"
                 >
@@ -166,9 +144,7 @@
                 class="card-footer pb-4 border-top-0 bg-transparent"
               >
                 <div class="text-center">
-                  <button
-                    class="btn btn-outline-dark comic_button"
-                  >
+                  <button class="btn btn-outline-dark comic_button">
                     Add to cart
                   </button>
                 </div>
@@ -192,6 +168,6 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
-    <script src="js/script.js"></script>
+    <script type="module" src="js/index.js"></script>
   </body>
 </html>

@@ -84,11 +84,16 @@
             </li>
           </ul>
           <div class="d-flex">
-            <button id="btn_cart" class="btn btn-outline-dark">
+            <a href="cart.html" class="btn btn-outline-dark">
               <i class="bi bi-cart-fill"></i>
               Cart
-              <span class="badge rounded-pill bg-dark ms-1"> 0</span>
-            </button>
+              <span
+                id="cart_items"
+                class="badge rounded-pill bg-dark ms-1"
+              >
+                0</span
+              >
+            </a>
           </div>
         </div>
       </div>
@@ -104,13 +109,13 @@
                 id="comic_image"
                 class="card-img img-fluid"
                 src="assets/comic.jpeg"
-                alt="Card image cap"  
+                alt="Card image cap"
               />
             </div>
           </div>
           <!-- col end -->
           <div class="col-lg-7 mt-5">
-            <div id="comic_card"  class="card h-100">
+            <div id="comic_card" class="card h-100">
               <div class="card-body">
                 <h1 id="title" class="h2">{{TITLE}}</h1>
                 <p id="price" class="h3 py-2">{{PRICE}}</p>
