@@ -1,0 +1,8 @@
+hash=21c27c3418a2fddfff1fd7d4f5df4c46
+public=14d8a14b31c283549128e029eb25dbba
+private=ba223830294711325e2389c9933f64846106b5c0
+
+http://gateway.marvel.com/v1/public/comics?
+ts=1
+&apikey=14d8a14b31c283549128e029eb25dbba
+&hash=21c27c3418a2fddfff1fd7d4f5df4c46
